@@ -1,0 +1,14 @@
+{
+  "name": "projet-nirina",
+  "version": "1.0.0",
+  "description": "projet bdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "dama",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.0"
+  }
+}
