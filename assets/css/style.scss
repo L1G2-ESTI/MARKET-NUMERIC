@@ -1,0 +1,74 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.description {
+    padding-top: 180px;
+}
+body.index{
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 630px;
+}
+
+.content-top {
+    margin-top: 300px;
+    margin-bottom: 50px;
+}
+
+.todo-list {
+    margin-top: 340px;
+    margin-left: 27px;
+}
+
+.categorie {
+    margin-top: 100px;
+}
+.todo-list-produit {
+    margin-top: 40px;
+    margin-left: 27px;
+}
+
+.sous{
+    display: flex;
+    flex-direction: column;
+}
+
+.sous .content{
+    display: flex;
+    flex-direction: column;
+}
+
+.principal{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(12,12,10,0.2);
+    margin:0px 200px;
+    padding: 10px;
+    width: 50%;
+}
+
+.titre{
+    margin-left: 175px;
+}
+
+.content_one{
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+.content_two{
+    padding-bottom: 18px;
+    margin-right: 300px;
+}
+
+.content_two input{
+    margin-bottom: 10px;
+}
+
+.boutton-enregistre{
+    margin-left: 170px;
+}
+
+.login{
+    margin: 270px 400px;
+}
