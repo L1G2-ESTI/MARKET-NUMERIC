@@ -1,0 +1,37 @@
+#----------------------------------------------------------------------------------------------------#
+#                                   PROJET "MARKETNUMERIQUES"                                        #
+#----------------------------------------------------------------------------------------------------#
+
+
+
+#----------------------------------DESCRIPTIONS DES DEROULEMENTS------------------------------------#
+
+Ce projet consiste à une sorte de pétite site e-commerce, Donc on l'appelle "MARKETNUMERIQUES";
+
+Pour cela, pour bien gérer les clients aupres d'un supermarché, on a décidé de mettre plusieurs 
+écran dans le supermarché afin de consulter tous les produits disponibles aupres de ce supermarché
+
+Donc, avant d'acheter des produits, les securités distribuent un identifiant à chaque client, donc par
+par rapport à cet identifiant que les clients se connectent sur la site à l'ecran!!
+
+
+les clients alors vendent tous ce qu'ils veulent et ils sont beneficiés une interface pour voir les 
+listes de ses produits qu'ils souhaitent ajoutés à son panier!!
+
+Ici aucun billet d'argent mis au point de vente; Tous sont payés par carte bancaire ou Paypal
+
+
+
+#---------------------------------DESCRIPTION DU COTE TECHNIQUE------------------------------------#
+
+Pour les côtés techniques, premierement on cree une base de données apelée "VENTES"
+Dans cela, il y a la table "identifiant_cli" d'abord pour les identifiants distribués aux clients, 
+il y a aussi la table "categorie" pour la table qui definie les catégories des produits
+aupres de l'agence. Encore la table produits qui detaillent les produits disponibles(le nom, prix,
+categorie,...).Ensuite la table pannier pour les ajouts des clients.Pour cette table les produits
+ajoutés sont defaultement "NON VENDU" qu'après la validation de client c'est-à-dire apres la 
+remplissage de formulaire necessaire pour ses detailles et son numero de la carte bancaire!! 
+le but ici de connaitre les produits tous simplement ajout au panier mais le client ne les
+achete plus afin de connaitre le statistique de vente!! Et enfin la table client pour les detailles
+de clients qui achétent des produits specifiées par ses identifiants
+ 
